@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
+
+.informacoes{
+    display:flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes img{
+    width: 220px;
+    height: 220px;
+} 
+.info-contatos{
+ display: flex;
+ align-items: center;
+}
+.redes-socias{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.redes-socias a:hover{{
+    font-weight: bold
+}
